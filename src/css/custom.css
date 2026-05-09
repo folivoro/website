@@ -1,0 +1,68 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #ff0077;
+    --ifm-color-primary-dark: #cc005f;
+    --ifm-color-primary-darker: #b30053;
+    --ifm-color-primary-darkest: #80003b;
+    --ifm-color-primary-light: #ff3392;
+    --ifm-color-primary-lighter: #ff4da0;
+    --ifm-color-primary-lightest: #ff80bb;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(255, 0, 119, 0.1);
+    --ifm-hero-text-color: #fff;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    --ifm-color-primary: #ff3d98;
+    --ifm-color-primary-dark: #ff1a85;
+    --ifm-color-primary-darker: #ff0077;
+    --ifm-color-primary-darkest: #cc005f;
+    --ifm-color-primary-light: #ff66ad;
+    --ifm-color-primary-lighter: #ff80bb;
+    --ifm-color-primary-lightest: #ffb3d6;
+    --docusaurus-highlighted-code-line-bg: rgba(255, 0, 119, 0.2);
+    --ifm-hero-text-color: #fff;
+}
+
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+.invert {
+    filter: invert(100%);
+    transition: filter 500ms linear;
+}
+
+.invert:hover {
+    filter: invert(0%);
+}
+
+.invert * {
+    transition: color 500ms linear;
+}
+
+.invert:hover * {
+    color: #fff !important;
+}
+#tsparticles {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#tsparticles canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
