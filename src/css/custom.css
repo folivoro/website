@@ -45,7 +45,7 @@
     transition: filter 500ms linear;
 }
 
-.invert:hover {
+.feature:hover .invert, .invert:hover {
     filter: invert(0%);
 }
 

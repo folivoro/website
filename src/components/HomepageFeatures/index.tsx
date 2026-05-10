@@ -64,7 +64,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
     return (
-        <div className={styles.feature}>
+        <div className={`${styles.feature} feature`}>
             <div className="text--center invert">
                 <Svg className={styles.featureSvg} role="img" />
             </div>
