@@ -16,6 +16,7 @@
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(255, 0, 119, 0.1);
     --ifm-hero-text-color: #fff;
+    --ifm-footer-background-color: rgba(255, 0, 119, .1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -29,6 +30,7 @@
     --ifm-color-primary-lightest: #ffb3d6;
     --docusaurus-highlighted-code-line-bg: rgba(255, 0, 119, 0.2);
     --ifm-hero-text-color: #fff;
+    --ifm-footer-background-color: rgba(255, 0, 119, .1);
 }
 
 
