@@ -72,19 +72,18 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://sixmonkey.github.io/sloth/',
+          href: 'https://folivoro.github.io/sloth/',
           label: 'API Documentation',
           position: 'right',
         },
         {
-          href: 'https://github.com/sixmonkey/sloth',
+          href: 'https://github.com/folivoro/sloth',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
