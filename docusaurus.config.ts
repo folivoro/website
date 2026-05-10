@@ -25,6 +25,7 @@ const config: Config = {
   organizationName: 'folivoro', // Usually your GitHub org/user name.
   projectName: 'folivoro.com', // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
 
