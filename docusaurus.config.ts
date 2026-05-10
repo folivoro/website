@@ -24,7 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'folivoro', // Usually your GitHub org/user name.
   projectName: 'folivoro.com', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
