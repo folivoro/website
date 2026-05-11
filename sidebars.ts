@@ -21,10 +21,12 @@ const defined: any[] = [
       'routing',
       'models',
       'views',
+      'context',
       'modules',
       'api-controllers',
       'events',
       'configuration',
+      'options',
       'cli-commands',
       'caching',
       'debugging',
@@ -33,7 +35,7 @@ const defined: any[] = [
   {
     type: 'category',
     label: 'Integrations',
-    items: ['layotter', 'acf', 'polylang'],
+    items: ['layotter', 'acf'],
   },
   {
     type: 'category',
@@ -45,9 +47,9 @@ const defined: any[] = [
 // Collect all .md files actually present in the docs repo.
 const docsDir = path.resolve(__dirname, 'docs');
 const existing = new Set(
-    fs.readdirSync(docsDir)
-        .filter(f => f.endsWith('.md') && f !== 'README.md')
-        .map(f => f.replace(/\.md$/, ''))
+  fs.readdirSync(docsDir)
+    .filter(f => f.endsWith('.md') && f !== 'README.md')
+    .map(f => f.replace(/\.md$/, ''))
 );
 
 // Remove entries from defined that have no corresponding .md file.
