@@ -21,6 +21,7 @@ const defined: any[] = [
       'routing',
       'models',
       'views',
+      'theme',
       'context',
       'modules',
       'api-controllers',
